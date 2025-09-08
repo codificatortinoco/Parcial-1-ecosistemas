@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Example user",
+    "balance": 1000,
+    "bids": []
+  },
+  {
+    "id": 2,
+    "name": "Pablo",
+    "balance": 1000,
+    "bids": []
+  },
+  {
+    "id": 3,
+    "name": "Juanito",
+    "balance": 1000,
+    "bids": []
+  },
+  {
+    "id": 4,
+    "name": "John",
+    "balance": 699,
+    "bids": [
+      {
+        "itemId": 10,
+        "amount": 301,
+        "at": "2025-09-08T23:36:23.977Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Benito",
+    "balance": 1000,
+    "bids": []
+  },
+  {
+    "id": 6,
+    "name": "Juan",
+    "balance": 1000,
+    "bids": []
+  }
+]

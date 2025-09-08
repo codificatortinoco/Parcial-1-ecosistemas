@@ -1,0 +1,169 @@
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; color: #222; }
+h1 { margin: 0 0 10px; font-size: 24px; }
+.controls { display: flex; gap: 12px; align-items: center; margin-bottom: 16px; }
+.controls button { padding: 8px 12px; border: 1px solid #ccc; border-radius: 6px; background: #fff; cursor: pointer; }
+.controls button:hover { background: #f6f6f6; }
+#countdown { font-weight: 700; }
+.badge { display: inline-block; padding: 4px 10px; border-radius: 999px; background: #111827; color: #fff; font-size: 12px; }
+
+table { border-collapse: collapse; width: 100%; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 2px rgba(0,0,0,.06); }
+thead th { background: #f3f4f6; text-align: left; font-weight: 600; color: #374151; }
+th, td { border-bottom: 1px solid #e5e7eb; padding: 10px 12px; }
+tbody tr:nth-child(even) { background: #fafafa; }
+
+.hidden { display: none; }
+.msg { 
+  margin-top: 12px; 
+  padding: 12px 16px; 
+  border: 1px solid #e5e7eb; 
+  background: #f9fafb; 
+  border-radius: 8px; 
+  font-weight: 500;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+}
+.msg.msg--ok { 
+  color: #065f46; 
+  border-left: 4px solid #10b981; 
+  background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 100%);
+  border-color: #10b981;
+}
+.msg.msg--ok::before {
+  content: "✓";
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  color: #10b981;
+  font-size: 16px;
+}
+.msg.msg--ok {
+  padding-left: 40px;
+}
+.msg.msg--error { 
+  color: #991b1b; 
+  border-left: 4px solid #ef4444; 
+  background: linear-gradient(135deg, #fef2f2 0%, #fef7f7 100%);
+  border-color: #ef4444;
+}
+.msg.msg--error::before {
+  content: "⚠";
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  color: #ef4444;
+  font-size: 16px;
+}
+.msg.msg--error {
+  padding-left: 40px;
+}
+
+#results { 
+  margin-top: 16px; 
+  background: rgba(31, 41, 55, 0.3); 
+  color: #f9fafb; 
+  padding: 20px; 
+  border-radius: 12px; 
+  overflow: auto; 
+  max-height: 400px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border: 1px solid rgba(55, 65, 81, 0.6);
+}
+
+.results-header {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-align: center;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #374151;
+}
+
+.results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.result-item {
+  background: rgba(55, 65, 81, 0.4);
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid rgba(107, 114, 128, 0.6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.result-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.item-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.item-name {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.item-id {
+  background: rgba(31, 41, 55, 0.6);
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.winner-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.winner-label {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.winner-name {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.bid-info {
+  text-align: right;
+}
+
+.bid-amount {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.no-results {
+  text-align: center;
+  color: #ffffff;
+  font-style: italic;
+  padding: 20px;
+}
+

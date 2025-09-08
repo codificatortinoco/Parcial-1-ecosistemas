@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Espada mágica",
+    "basePrice": 100,
+    "highestBid": 100,
+    "highestBidder": null,
+    "sold": false
+  },
+  {
+    "id": 2,
+    "name": "Armadura legendaria",
+    "basePrice": 200,
+    "highestBid": 200,
+    "highestBidder": null,
+    "sold": false
+  },
+  {
+    "id": 3,
+    "name": "Poción de invisibilidad",
+    "basePrice": 80,
+    "highestBid": 80,
+    "highestBidder": null,
+    "sold": false
+  },
+  {
+    "id": 4,
+    "name": "Anillo del poder eterno",
+    "basePrice": 150,
+    "highestBid": 150,
+    "highestBidder": null,
+    "sold": false
+  },
+  {
+    "id": 5,
+    "name": "Báculo de sabiduría ancestral",
+    "basePrice": 120,
+    "highestBid": 120,
+    "highestBidder": null,
+    "sold": false
+  },
+  {
+    "id": 6,
+    "name": "Capa de sombras",
+    "basePrice": 90,
+    "highestBid": 90,
+    "highestBidder": null,
+    "sold": false
+  },
+  {
+    "id": 7,
+    "name": "Grimorio de hechizos prohibidos",
+    "basePrice": 250,
+    "highestBid": 250,
+    "highestBidder": null,
+    "sold": false
+  },
+  {
+    "id": 8,
+    "name": "Amuleto de curación",
+    "basePrice": 70,
+    "highestBid": 70,
+    "highestBidder": null,
+    "sold": false
+  },
+  {
+    "id": 9,
+    "name": "Botas de velocidad divina",
+    "basePrice": 110,
+    "highestBid": 110,
+    "highestBidder": null,
+    "sold": false
+  },
+  {
+    "id": 10,
+    "name": "Corona del rey druida",
+    "basePrice": 300,
+    "highestBid": 301,
+    "highestBidder": 4,
+    "sold": true
+  }
+]

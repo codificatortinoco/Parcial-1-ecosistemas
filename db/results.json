@@ -1,0 +1,121 @@
+[
+  {
+    "at": "2025-09-08T19:05:43.242Z",
+    "results": [
+      {
+        "itemId": 1,
+        "item": "Espada mágica",
+        "winner": "Juan",
+        "finalBid": 101
+      },
+      {
+        "itemId": 3,
+        "item": "Poción de invisibilidad",
+        "winner": "Benito",
+        "finalBid": 82
+      },
+      {
+        "itemId": 4,
+        "item": "Anillo del poder eterno",
+        "winner": "Benito",
+        "finalBid": 422
+      },
+      {
+        "itemId": 7,
+        "item": "Grimorio de hechizos prohibidos",
+        "winner": "Juan",
+        "finalBid": 261
+      },
+      {
+        "itemId": 8,
+        "item": "Amuleto de curación",
+        "winner": "Juan",
+        "finalBid": 72
+      },
+      {
+        "itemId": 9,
+        "item": "Botas de velocidad divina",
+        "winner": "Benito",
+        "finalBid": 122
+      },
+      {
+        "itemId": 10,
+        "item": "Corona del rey druida",
+        "winner": "Benito",
+        "finalBid": 312
+      }
+    ]
+  },
+  {
+    "at": "2025-09-08T20:45:15.726Z",
+    "results": [
+      {
+        "itemId": 8,
+        "item": "Amuleto de curación",
+        "winner": "Juan",
+        "finalBid": 100
+      }
+    ]
+  },
+  {
+    "at": "2025-09-08T20:47:15.828Z",
+    "results": [
+      {
+        "itemId": 5,
+        "item": "Báculo de sabiduría ancestral",
+        "winner": "Juan",
+        "finalBid": 200
+      },
+      {
+        "itemId": 8,
+        "item": "Amuleto de curación",
+        "winner": "Juan",
+        "finalBid": 100
+      }
+    ]
+  },
+  {
+    "at": "2025-09-08T21:58:56.633Z",
+    "results": [
+      {
+        "itemId": 8,
+        "item": "Amuleto de curación",
+        "winner": "Juan",
+        "finalBid": 72
+      }
+    ]
+  },
+  {
+    "at": "2025-09-08T23:28:16.422Z",
+    "results": [
+      {
+        "itemId": 10,
+        "item": "Corona del rey druida",
+        "winner": "John",
+        "finalBid": 301
+      }
+    ]
+  },
+  {
+    "at": "2025-09-08T23:35:28.836Z",
+    "results": [
+      {
+        "itemId": 10,
+        "item": "Corona del rey druida",
+        "winner": "John",
+        "finalBid": 401
+      }
+    ]
+  },
+  {
+    "at": "2025-09-08T23:36:27.214Z",
+    "results": [
+      {
+        "itemId": 10,
+        "item": "Corona del rey druida",
+        "winner": "John",
+        "finalBid": 301
+      }
+    ]
+  }
+]

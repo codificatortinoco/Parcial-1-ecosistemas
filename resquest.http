@@ -1,0 +1,25 @@
+## install REST Client or humao.rest-client to execute this
+
+GET http://localhost:5050/users
+
+###
+
+POST http://localhost:5050/users 
+Content-Type: application/json
+
+{
+    "name": "Edwar",
+    "age": 28,
+    "job": "UX designer"
+}
+
+### 
+
+PUT http://localhost:5050/actualizar/1 
+Content-Type: application/json
+
+{
+    "name": "Edwar 2",
+    "age": 28,
+    "job": "UI developer",
+}

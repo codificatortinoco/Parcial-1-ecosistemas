@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor APP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Monitor APP</h1>
+    <div class="controls">
+        <button id="open-auction">Abrir subasta</button>
+        <button id="close-auction">Cerrar subasta</button>
+        <button id="reset-round">Nueva ronda</button>
+        <span id="countdown">--</span>
+    </div>
+
+    <table id="items-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Producto</th>
+                <th>Mayor oferta</th>
+                <th>Postor líder</th>
+                <th>Vendido</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <div id="msg" class="msg"></div>
+    <pre id="results" class="hidden"></pre>
+    <script src="index.js"></script>
+</body>
+
+</html>
