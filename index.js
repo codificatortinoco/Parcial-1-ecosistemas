@@ -129,7 +129,11 @@ app.post("/items/:id/bid", (req, res) => {
   }
 
   if (bidAmount <= Number(item.highestBid)) {
-    return res.status(400).json({ message: "la oferta debe ser mayor a la actual" })
+    return res.status(400).json({
+      message: "la oferta debe ser mayor a la actual",
+      currentHighest: Number(item.highestBid),
+      minRequired: Number(item.highestBid) + 1
+    })
   }
 
   // Available balance considering reservations

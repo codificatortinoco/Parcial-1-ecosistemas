@@ -117,5 +117,50 @@
         "finalBid": 301
       }
     ]
+  },
+  {
+    "at": "2025-09-09T12:02:41.421Z",
+    "results": [
+      {
+        "itemId": 7,
+        "item": "Grimorio de hechizos prohibidos",
+        "winner": "Juan",
+        "finalBid": 251
+      },
+      {
+        "itemId": 10,
+        "item": "Corona del rey druida",
+        "winner": "Lucho",
+        "finalBid": 301
+      }
+    ]
+  },
+  {
+    "at": "2025-09-09T12:09:59.936Z",
+    "results": [
+      {
+        "itemId": 10,
+        "item": "Corona del rey druida",
+        "winner": "Juan",
+        "finalBid": 301
+      }
+    ]
+  },
+  {
+    "at": "2025-09-09T13:51:08.311Z",
+    "results": [
+      {
+        "itemId": 7,
+        "item": "Grimorio de hechizos prohibidos",
+        "winner": "Juan",
+        "finalBid": 251
+      },
+      {
+        "itemId": 10,
+        "item": "Corona del rey druida",
+        "winner": "Melinda",
+        "finalBid": 305
+      }
+    ]
   }
 ]

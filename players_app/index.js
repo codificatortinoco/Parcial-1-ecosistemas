@@ -58,6 +58,7 @@ async function loadItems() {
     const items = await res.json()
     tableBody.innerHTML = items.map(renderRow).join('')
     await maybeNotifyAuctionClosed(items)
+    if (me) { await refreshUser() }
   } catch (e) { console.error(e) }
 }
 
@@ -93,7 +94,14 @@ window.placeBid = async function(id) {
       body: JSON.stringify({ userId: me.id, amount })
     })
     const data = await res.json()
-    if (!res.ok) { showMsg(data.message || 'Error al pujar', true); return }
+    if (!res.ok) {
+      if (data && typeof data.currentHighest === 'number') {
+        showMsg(`${data.message}. Actual: ${data.currentHighest}. Puja al menos ${data.minRequired}.`, true)
+      } else {
+        showMsg(data.message || 'Error al pujar', true)
+      }
+      return
+    }
     showMsg('puja aceptada')
 
     if (typeof data.availableBalance === 'number') {

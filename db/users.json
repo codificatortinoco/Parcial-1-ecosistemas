@@ -20,14 +20,8 @@
   {
     "id": 4,
     "name": "John",
-    "balance": 699,
-    "bids": [
-      {
-        "itemId": 10,
-        "amount": 301,
-        "at": "2025-09-08T23:36:23.977Z"
-      }
-    ]
+    "balance": 1000,
+    "bids": []
   },
   {
     "id": 5,
@@ -38,7 +32,57 @@
   {
     "id": 6,
     "name": "Juan",
+    "balance": 749,
+    "bids": [
+      {
+        "itemId": 10,
+        "amount": 301,
+        "at": "2025-09-09T13:50:26.028Z"
+      },
+      {
+        "itemId": 7,
+        "amount": 251,
+        "at": "2025-09-09T13:50:35.419Z"
+      },
+      {
+        "itemId": 10,
+        "amount": 302,
+        "at": "2025-09-09T13:50:43.856Z"
+      },
+      {
+        "itemId": 10,
+        "amount": 304,
+        "at": "2025-09-09T13:50:59.260Z"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Lucho",
     "balance": 1000,
     "bids": []
+  },
+  {
+    "id": 8,
+    "name": "Ana",
+    "balance": 1000,
+    "bids": []
+  },
+  {
+    "id": 9,
+    "name": "Melinda",
+    "balance": 695,
+    "bids": [
+      {
+        "itemId": 10,
+        "amount": 303,
+        "at": "2025-09-09T13:50:50.241Z"
+      },
+      {
+        "itemId": 10,
+        "amount": 305,
+        "at": "2025-09-09T13:51:05.750Z"
+      }
+    ]
   }
 ]
