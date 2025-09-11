@@ -1,12 +1,5 @@
 ## Subastas - HTTP REST
 
-Pequeña app de subastas con dos clientes web (sin frameworks):
-- `players_app`: registro de jugadores y pujas.
-- `monitor_app`: pantalla pública, abre/cierra la subasta y refresca cada 1s.
-
-### Requisitos
-- Node.js 18+
-
 ### Instalación y ejecución
 ```bash
 npm install
@@ -28,5 +21,3 @@ El servidor corre en `http://localhost:5080`.
 
 ### Notas
 - La subasta dura 60s desde el monitor (al abrirla). También puede cerrarse manualmente.
-- En Windows/PowerShell, para probar POST con JSON usa herramientas como Postman/Insomnia o el archivo `resquest.http` del proyecto para evitar problemas de comillas.
-

@@ -162,5 +162,31 @@
         "finalBid": 305
       }
     ]
+  },
+  {
+    "at": "2025-09-10T21:09:20.819Z",
+    "results": [
+      {
+        "itemId": 10,
+        "item": "Corona del rey druida",
+        "winner": "Juan",
+        "finalBid": 1000
+      }
+    ]
+  },
+  {
+    "at": "2025-09-10T21:23:37.763Z",
+    "results": [
+      {
+        "itemId": 10,
+        "item": "Corona del rey druida",
+        "winner": "Juan",
+        "finalBid": 1000
+      }
+    ]
+  },
+  {
+    "at": "2025-09-10T22:01:08.066Z",
+    "results": []
   }
 ]

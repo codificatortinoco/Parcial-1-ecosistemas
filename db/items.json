@@ -51,9 +51,9 @@
     "id": 7,
     "name": "Grimorio de hechizos prohibidos",
     "basePrice": 250,
-    "highestBid": 251,
-    "highestBidder": 6,
-    "sold": true
+    "highestBid": 250,
+    "highestBidder": null,
+    "sold": false
   },
   {
     "id": 8,
@@ -75,8 +75,8 @@
     "id": 10,
     "name": "Corona del rey druida",
     "basePrice": 300,
-    "highestBid": 305,
-    "highestBidder": 9,
-    "sold": true
+    "highestBid": 300,
+    "highestBidder": null,
+    "sold": false
   }
 ]
