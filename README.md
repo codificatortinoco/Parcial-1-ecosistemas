@@ -21,3 +21,6 @@ El servidor corre en `http://localhost:5080`.
 
 ### Notas
 - La subasta dura 60s desde el monitor (al abrirla). También puede cerrarse manualmente.
+
+###Swimlane 
+https://drive.google.com/file/d/1HXmartJKTP5BwOUA3bReE9vdFwr8og7d/view?usp=sharing 
